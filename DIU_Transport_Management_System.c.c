@@ -57,7 +57,7 @@ struct busRoute *routeList = NULL;
 struct report *reportList = NULL; 
 
 char transportNotice[500] = "No new transport/fare notice available.";
-//sahriar
+//runa
 void saveData() {
     FILE *fp;
 
@@ -107,7 +107,7 @@ void saveData() {
         fclose(fp);
     }
 }
-//sahriar
+//runa
 void loadData() {
     FILE *fp;
     char line[600];
